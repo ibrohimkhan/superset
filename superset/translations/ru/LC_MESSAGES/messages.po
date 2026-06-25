@@ -201,15 +201,15 @@ msgstr "\"%s\" назначен системной светлой темой"
 
 # Poedit выдает ошибку из-за ведущего символа %. Но перевод работает в
 # Superset нормально.
-#, python-format
+#, no-python-format
 msgid "% calculation"
 msgstr "Расчет долей"
 
-#, python-format
+#, no-python-format
 msgid "% of parent"
 msgstr "% родителя"
 
-#, python-format
+#, no-python-format
 msgid "% of total"
 msgstr "% итого"
 
@@ -312,9 +312,9 @@ msgstr "%s Выбрано (Физические)"
 msgid "%s Selected (Virtual)"
 msgstr "%s Выбрано (Виртуальные)"
 
-#, fuzzy, python-format
+#, python-format
 msgid "%s URL"
-msgstr "Ссылка (URL)"
+msgstr "URL %s"
 
 #, python-format
 msgid "%s aggregates(s)"
@@ -4885,13 +4885,13 @@ msgstr "Отображать название столбца"
 msgid "Display controls"
 msgstr "Настройки отображения"
 
-#, fuzzy, python-format
+#, python-format
 msgid "Display controls (%d)"
-msgstr "Настройки отображения"
+msgstr "Настройки отображения (%d)"
 
-#, fuzzy, python-format
+#, python-format
 msgid "Display controls (%s)"
-msgstr "Настройки отображения"
+msgstr "Настройки отображения (%s)"
 
 #, fuzzy
 msgid "Display cumulative total at end"
@@ -5115,9 +5115,9 @@ msgstr ""
 msgid "Duplicate dataset"
 msgstr "Дублировать датасет"
 
-#, fuzzy, python-format
+#, python-format
 msgid "Duplicate folder name: %s"
-msgstr "Дублировать роль %(name)s"
+msgstr "Дублирующееся имя папки: %s"
 
 msgid "Duplicate role"
 msgstr "Дублировать роль"
@@ -5223,9 +5223,9 @@ msgstr "Толщина ребра"
 msgid "Edit"
 msgstr "Редактировать"
 
-#, fuzzy, python-format
+#, python-format
 msgid "Edit %s in modal"
-msgstr "в модальном окне"
+msgstr "Редактировать %s в модальном окне"
 
 msgid "Edit CSS template properties"
 msgstr "Редактировать свойства шаблона CSS"
@@ -5858,16 +5858,16 @@ msgstr ""
 "Произошла ошибка скачивания PDF-файла. Обновите страницу и попробуйте "
 "заново."
 
-#, fuzzy, python-format
+#, python-format
 msgid "Export failed: %s"
-msgstr "Рассылка не удалась"
+msgstr "Не удалось экспортировать: %s"
 
 msgid "Export screenshot (jpeg)"
 msgstr ""
 
-#, fuzzy, python-format
+#, python-format
 msgid "Export successful: %s"
-msgstr "Экспорт в целый CSV"
+msgstr "Экспорт успешно выполнен: %s"
 
 msgid "Export to .CSV"
 msgstr "Экспорт в CSV"
@@ -6000,9 +6000,9 @@ msgstr "Не удалось загрузить данные диаграммы"
 msgid "Failed to load chart data."
 msgstr "Не удалось загрузить данные"
 
-#, fuzzy, python-format
+#, python-format
 msgid "Failed to load columns for dataset %s"
-msgstr "Не удалось загрузить данные диаграммы"
+msgstr "Не удалось загрузить столбцы для набора данных %s"
 
 msgid "Failed to load top values"
 msgstr "Не удалось загрузить топовые значения"
@@ -6036,13 +6036,13 @@ msgstr "Не удалось сохранить область действия �
 msgid "Failed to set local theme: Invalid JSON configuration"
 msgstr "Не удалось установить локальную тему: некорректная JSON-конфигурация"
 
-#, fuzzy, python-format
+#, python-format
 msgid "Failed to set system dark theme: %s"
-msgstr "Нет доступа к запросу"
+msgstr "Не удалось установить системную тёмную тему: %s"
 
-#, fuzzy, python-format
+#, python-format
 msgid "Failed to set system default theme: %s"
-msgstr "Ошибка при проверке вариантов выбора: %s"
+msgstr "Не удалось установить системную тему по умолчанию: %s"
 
 msgid "Failed to start remote query on a worker."
 msgstr "Не удалось запустить удаленный запрос"
@@ -12175,9 +12175,9 @@ msgstr "Параметры шаблона"
 msgid "Template processing error: %(error)s"
 msgstr "Ошибка обработки шаблона: %(error)s"
 
-#, fuzzy, python-format
+#, python-format
 msgid "Template processing failed: %(ex)s"
-msgstr "Ошибка обработки шаблона: %(error)s"
+msgstr "Ошибка обработки шаблона: %(ex)s"
 
 msgid ""
 "Templated link, it's possible to include {{ metric }} or other values "
